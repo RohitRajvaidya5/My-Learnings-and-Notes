@@ -276,3 +276,5 @@ There are two componenets of table that are **Head** and **Body**.
 
 So to add another row , you just have to add another `<tr>` (Table Row) and `<td>` (Table Data) tags.
 `<tfoot>` is footer tag for table.
+
+***
