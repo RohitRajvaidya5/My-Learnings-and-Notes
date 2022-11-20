@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML | Forms</title>
+  </head>
+  <body>
+    <h1>HTML - Forms</h1>
+
+    <form action="backend.php">
+      <div>Name : <input type="text" name="MyName" /></div>
+      <br />
+      <div>Role : <input type="text" name="MyRole" /></div>
+      <br />
+      <div>Email : <input type="email" name="MyEmail" id="" /></div>
+      <br />
+      <div>Date : <input type="date" name="MyDate" id="" /></div>
+      <br />
+      <div>Numbers : <input type="number" name="MyNumber" id="" /></div>
+      <br />
+      <div>CheckBox : <input type="checkbox" name="MyCheckBox" id="" /></div>
+      <br />
+      <div>
+        Radio Button : <input type="radio" name="MyRadioButton" id="" />
+      </div>
+      <br />
+      <div>
+        TextArea : <br /><br /><textarea
+          name=""
+          id=""
+          cols="20"
+          rows="5"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="Name"
+          >Name : <input type="text" name="Name" id="Name"
+        /></label>
+      </div>
+      <br />
+      <div>
+        <label for="Car">Select : 
+            <select name="Car" id="Car">
+                <option value="ind">Indica</option>
+                <option value="Maruti" selected>Maruti</option>
+            </select>
+        </label>
+      </div>
+      <br>
+      <div>
+        <input type="reset" value="Reset Now" />
+        <input type="submit" value="Submit Now" />
+      </div>
+      <br />
+    </form>
+  </body>
+</html>
