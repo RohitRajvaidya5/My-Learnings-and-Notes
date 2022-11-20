@@ -107,9 +107,7 @@ To Make SEO friendly website with header tag :
 
 Paragraph tag use for giving descriptions and paragraphs.
 
-<br>
 
-To make SEO friendly website , Paragraph should be meaningful and short but not too short. You can start with topic's main point and explain it in further lines. Also should add sub-topics if the explanation taking too long.
 
 <br>
 
@@ -120,14 +118,24 @@ To make SEO friendly website , Paragraph should be meaningful and short but not 
   dolorem itaque cumque! Unde!
 </p>
 ```
+<br>
+
+To make SEO friendly website , Paragraph should be meaningful and short but not too short. You can start with topic's main point and explain it in further lines. Also should add sub-topics if the explanation taking too long.
 
 ### 3. Image Tag
 
-It is use to place images in web pages. `alt` is attribute which is use for alternative text which is appear if image fails to show.
+It is use to place images in web pages. `alt` is attribute which is use for alternative text which is appear if image fails to show.And when hover mouse or pointer over image then text in `title` atribute appear.
+
+<br>
+
+
 
 ```html
-<img src="Path of the image" alt="Alternative Text" />
+<img src="Path of the image" alt="Alternative Text" title = "Text Appear when hover over it." />
 ```
+<br>
+
+So as per to make SEO friendly web page you have take some points seriously like giving `alt` attribute and add some description about images it is important for vision impared users and also it helps search engine to show relevant results.`title` attribute is also important when it comes to SEO. but if your image just for design or decoration of web page then it is useless to give `alt` and `title` attribute. 
 
 ### 4. HTML Lists
 
@@ -163,7 +171,7 @@ Syntax of both lists respectively :
 
 ### 5. Link Tag
 
-You can link with the help of this tag.
+You can link with the help of `<a>` tag.
 
 ```html
 <a href="https://www.google.com">GoTo Google</a>
@@ -173,9 +181,52 @@ You can link with the help of this tag.
 
 ## HTML Tags for formatting
 
-## Some Other HTML Tags
+1. Bold &rarr;
 
-### HTML Table
+```html 
+<b>This is text in bold.</b>
+```
+    
+    
+2. Emphasize &rarr;
+
+```html 
+<em>Text in Emphasize</em>
+```
+
+3. Itallic &rarr;
+
+```html 
+<i>Text in itallic</i>
+```
+
+
+4. Mark - Make the text highlighted.  &rarr;
+    
+```html 
+<mark>This is mark</mark>
+```
+    
+5. Srikethrough or del  &rarr;
+    
+```html 
+<del>This is text for strikethrough</del>
+```
+
+6. Superscript  &rarr;
+
+```html 
+a<sup>2</sup> + b <sup>2</sup> = c<sup>2</sup>
+```
+
+7. Subscript &rarr;
+
+```html 
+H <sub>2</sub> + O = H <sub>2</sub>O
+```
+***
+
+## HTML Table
 
 Table is a tag which is use arrange data in tables in html.
 There are two componenets of table that are **Head** and **Body**.
@@ -211,7 +262,17 @@ There are two componenets of table that are **Head** and **Body**.
 
   </tbody>
 
+  <tfoot>
+    <tr>
+      <td>Footer 1</td>
+      <td>Footer 2</td>
+      <td>Footer 3</td>
+    </tr>
+  </tfoot>
+
+
 </table>
 ```
 
-So to add another row , you just have to add another `<tr>` and `<td>` tags.
+So to add another row , you just have to add another `<tr>` (Table Row) and `<td>` (Table Data) tags.
+`<tfoot>` is footer tag for table.
