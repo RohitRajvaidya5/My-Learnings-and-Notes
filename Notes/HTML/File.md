@@ -20,11 +20,13 @@
 
 ### 1. VS Code
 
+VS Code provide `emmet abbreviation` in-built which makes it best editor for Frontend development.
+
 There are so many code editors in the market which are just great as vs code but the support of extensions in vs code is so much helpful and if you used to all the shortcuts and environment then it is hard to choose another editor.
 
 <br>
 
-- Some Extensions which are totally change frontend experience with vs-code.
+#### Some Extensions which are totally change frontend experience with vs-code.
 
 <br>
 
@@ -34,16 +36,49 @@ With the help of live server you can view or run your html file in your default 
 
 <br>
 
-**2. colorize**
+![Live-Server](Images/Live-Server.png)
 
 <br>
 
-![image](/Notes/HTML/Images/Colorize.png)
+**2. Colorize**
+
+It gives the color to hex color code in CSS. Which will be helpful if identify any hex color.
+
+<br>
+
+![colorize](Images/Colorize.png)
+
+<br>
+
 
 **3. Color Themes**
 
+I prefer different color themes for different project.
+
+<br>
+
+![Color Theme](Images/Synthwave.png)
+
+<br>
+
+**4. Auto-Rename Tag**
+
+This is most useful extension for HTML tags. It auto complete tag . and also It get easy to change tags with this extension.
+<br>
+
+![Auto-Rename](Images/Auto-Rename.png)
+
+<br>
+
 ### 2. Mozillla Firefox
 
+**HTML** support all the major browsers in the market so it is ok to use any browser but when its time for CSS Firefox is great with it. It contains better developer options than other browsers. Mainly I get best idea of fonts with the help of mozilla while using CSS.
+
+<br>
+
+![Mozilla Firefox](Images/Mozilla-Firefox.png)
+
+<br>
 ---
 
 ## Basic HTML programme
@@ -276,5 +311,68 @@ There are two componenets of table that are **Head** and **Body**.
 
 So to add another row , you just have to add another `<tr>` (Table Row) and `<td>` (Table Data) tags.
 `<tfoot>` is footer tag for table.
+
+***
+
+## HTML Form
+
+This contains `<form>` tag and `<input>` tag all the form tags are children of parent tag `<form>`
+
+### input tag
+
+This is a most important tag for forms. It contains some types they are as follows:
+
+1. text : `<input type="text" name="MyName" />` gives text space to write some text . It can be use to write name , some info in words etc.
+<br>
+2. date : `<input type="date" name="MyDate" id="" />` gives option to add desire date. You can add any date with given arrangement.
+<br>
+3. number : `<input type="number" name="MyNumber" id="" />` gives option to add desire number . You can add any number with given arrangement.
+<br>
+4. Checkbox : `<input type="checkbox" name="MyCheckBox" id="" />`
+<br>
+5. Radio Button : `<input type="radio" name="MyRadioButton" id="" />` if you want to two option in radio button and if you have to give either one or two then name must be same in it.
+<br>
+6. textarea :  It is same as text but you can give number of columns and rows to expand area. 
+
+
+```html
+<textarea
+  name=""
+  id=""
+  cols="20"
+  rows="5">
+</textarea>
+```
+
+<br>
+
+7. select : If you have to give option other than given in radio button. 
+
+```html
+<select name="Car" id="Car">
+    <option value="ind">Indica</option>
+    <option value="Maruti" selected>Maruti</option>
+</select>
+```
+
+8. Submit and Reset button : 
+
+```html
+<input type="reset" value="Reset Now" /><!--Reset all the form>-->
+<input type="submit" value="Submit Now" /><!-- Submit the the form>
+```
+
+There is not much to explain but if just checkout the following project you will get whole idea of `HTML-Forms`
+
+<br>
+
+### e-slam Book Project
+
+With the help of only HTML form I have created a project its called "**e-slam Book**".
+Idea is pretty simple you can add some form elements and ask about detais of your friend. I have use only HTML for this project so it will not appear good looking but It can revise all the **HTML-Form** tags.
+
+![Project-Preview](../../HTML%20-%20Hyper%20Text%20Markup%20Language/Project/e-Slam%20Book/Image/preview-image.jpeg)
+
+**GitHub Link** : https://t.co/gCl4HeJklY
 
 ***
