@@ -1,4 +1,4 @@
-# <u>HTML</u> - Hyper Text Markup Language
+# <u>HTML</u> - Hyper Text Markup Language 👨‍💻
 
 ---
 
@@ -6,7 +6,11 @@
 - HTML is known as language of the web. i.e we can make web pages with the help of html and what is internet if nothing but full of web pages containing data.
 - HTML contain so many concepts like element ,tags , content etc.
 - **HTML Element** &rarr; HTML element is a combination of Opening Tag , Closing Tag and content present in it.
+
+<br> 
+
   e.g.
+
   ```html
   <html>
     Content or Data
@@ -16,7 +20,7 @@
 
 ---
 
-## Tools for development :
+## ⚙ Tools for development  :
 
 ### 1. VS Code
 
@@ -81,7 +85,7 @@ This is most useful extension for HTML tags. It auto complete tag . and also It 
 <br>
 ---
 
-## Basic HTML programme
+## 🔴 Basic HTML program
 
 ```html
 <!DOCTYPE html>
@@ -112,7 +116,7 @@ There so much to learn about `meta` tags and SEO but for basics and to run html 
 
 ---
 
-## Most useful HTML tags
+## 🟠 Most useful HTML tags
 
 ### 1. Header Tag
 
@@ -214,7 +218,7 @@ You can link with the help of `<a>` tag.
 
 ---
 
-## HTML Tags for formatting
+## 🟡 HTML Tags for formatting
 
 1. Bold &rarr;
 
@@ -261,7 +265,7 @@ H <sub>2</sub> + O = H <sub>2</sub>O
 ```
 ***
 
-## HTML Table
+## 🟢 HTML Table
 
 Table is a tag which is use arrange data in tables in html.
 There are two componenets of table that are **Head** and **Body**.
@@ -314,9 +318,11 @@ So to add another row , you just have to add another `<tr>` (Table Row) and `<td
 
 ***
 
-## HTML Form
+## 🔵 HTML Form
 
 This contains `<form>` tag and `<input>` tag all the form tags are children of parent tag `<form>`
+
+<br>
 
 ### input tag
 
@@ -368,15 +374,56 @@ There is not much to explain but if just checkout the following project you will
 
 ***
 
-<br>
+
+## 🟣 Projects
+***
 
 ### e-slam Book Project
 
 With the help of only HTML form I have created a project its called "**e-slam Book**".
 Idea is pretty simple you can add some form elements and ask about detais of your friend. I have use only HTML for this project so it will not appear good looking but It can revise all the **HTML-Form** tags.
 
+#### Preview Image :
+
 ![Project-Preview](../../HTML%20-%20Hyper%20Text%20Markup%20Language/Project/e-Slam%20Book/Image/preview-image.jpeg)
 
 **GitHub Link** : https://t.co/gCl4HeJklY
+
+***
+
+### Portfolio Website
+
+I came with this great solution to revise all the **HTML Tags**. The idea is "Portfolio website with Only HTML" it covers all the major as well as minor tags. and It needs much less time and it revises all the HTML. I even host with **Github Pages**.
+<br>
+#### Here's Preview Image &rarr;
+
+<br>
+
+![Portfolio Website With Only HTML](./Images/Portfolio%20Website%20With%20Only%20HTML.png)
+
+**Hosted Link** : [https://rohitrajvaidya5.github.io/PorfolioWithHTML/](https://rohitrajvaidya5.github.io/PorfolioWithHTML/)
+
+
+***
+
+So that conclude this blog , I have included all essential as well as minor tags in this blog.
+And came with technique to revise. I so many mentioned word "**Revise**" in blog because I think learning is easy and ok but you have to revise all your learnings and even you should have better technique to done it in less time. So that's about it.
+
+
+***
+
+I only mention about HTML in this blog so I excluded some of the concepts like **id** and **class** which is generally related to CSS and Javascript.
+
+***
+
+## 📄 Blog Summary Points
+
+1. [Tools For Developemt](#tools-for-development)
+2. [Basic HTML Program](#basic-html-program)
+3. [Most Useful HTML Tags](#most-useful-html-tags)
+4. [HTML Tags For Formatting](#html-tags-for-formatting)
+5. [HTML Table](#html-table)
+6. [HTML Form](#html-form)
+7. [Projects](#projects)
 
 ***
